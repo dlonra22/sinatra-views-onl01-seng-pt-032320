@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-	get '/home' do
+	get '/' do
 	"<h1>Hello World</h1>"
 	end
 end
